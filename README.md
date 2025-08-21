@@ -59,11 +59,11 @@ python sample_redis_chat_agent.py
 
 ## Example Output
 
-### Redis Session History
-![Redis Session History](redis_session_history.jpg)
-
 ### Session History in App
 ![Session History](session_history.jpg)
+
+### Redis Session History
+![Redis Session History](redis_session_history.jpg)
 
 ## Notes
 - The chat history is stored in Redis under the key `chat_thread:<session_id>`.
