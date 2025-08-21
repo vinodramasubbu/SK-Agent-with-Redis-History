@@ -49,12 +49,21 @@ This sample demonstrates how to build a conversational AI agent using Microsoft'
   - Runs a chat loop, sending user input to the agent and printing responses.
   - Updates and persists the thread in Redis after each turn.
 
+
 ## Example Usage
 ```sh
 python sample_redis_chat_agent.py
 ```
 - Enter a session ID to resume a previous chat, or press Enter to start a new one.
 - Chat with the assistant. All turns are saved and can be resumed later with the same session ID.
+
+## Example Output
+
+### Redis Session History
+![Redis Session History](redis_session_history.jpg)
+
+### Session History in App
+![Session History](session_history.jpg)
 
 ## Notes
 - The chat history is stored in Redis under the key `chat_thread:<session_id>`.
